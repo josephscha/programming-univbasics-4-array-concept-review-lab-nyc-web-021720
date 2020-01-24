@@ -10,11 +10,10 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max_value = []
   counter = 0 
   while counter < array.length do 
     if array[counter] = array.max
-      max_value << array[counter]
+      max_value = array[counter]
     end
     counter += 1
   end
